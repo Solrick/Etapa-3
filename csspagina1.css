@@ -1,0 +1,95 @@
+html {
+    font-size: 10px;
+    background-image:url(imgs/fundo2.jpg);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+    h1,h2,nav{
+
+        font-family: "Trebuchet MS", Verdana, sans-serif;
+        font-size: 2.5rem;
+        color:white;
+        
+    }
+    h1,h2{
+        padding:20;
+    }
+   
+
+    article { display: flex;
+
+    }
+    p{
+    
+        padding: 20;
+        margin-top: 10;
+        background-color:lightcyan;
+        font-family: "Trebuchet MS", Verdana, sans-serif;
+        font-size: 1.5rem;
+        text-align: justify;
+        color: #190C26
+        
+    
+    }
+
+    ul{
+        
+        font-family: "Trebuchet MS", Verdana, sans-serif;
+        background-color: black;
+        display: flex;
+        font-size: 2.5rem;
+        list-style-type: none; 
+        
+    }
+    a{
+        display:block;
+	padding: 20px;
+    }
+
+   li{
+       
+       padding: 20;
+       
+   }
+
+   ul li:hover {
+       background-color: rgb(41, 41, 41);
+   } 
+  ul li a{
+      text-decoration: none;
+      color:white;
+  }
+
+    footer{
+        
+        font-size:1.5rem;
+        text-align: center;
+    
+    }
+
+    div{
+        margin: 10;
+        padding: 10;
+        display:inline-flex;
+
+    }
+   
+    main{
+        width: 1100px;
+        position: relative;
+        margin: 0 auto;
+        
+    }
+    
+    img {
+        width: 350px;
+  height: 350px;
+  object-fit: fill;
+  padding: 20;
+
+}
